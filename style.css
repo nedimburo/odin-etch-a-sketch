@@ -20,6 +20,8 @@
     font-size: 24px;
     font-weight: 700;
     background-color: #78ff6e;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 #container{
     display: flex;
@@ -30,11 +32,14 @@
 .grid{
     flex: 1;
     display: flex;
-    border: 1px solid black;
+    outline: 1px solid;
     height: auto;
 }
 .square{
     flex: 1;
     height: 50px;
-    border: 1px solid black;
+    outline: 1px solid;
+}
+.colored{
+    background-color: black;
 }
