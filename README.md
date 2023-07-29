@@ -1,2 +1,2 @@
-# odin-etch-a-sketch
-Etch-a-sketch project from The Odin Project Course
+# Odin Etch-a-sketch
+**Etch-a-sketch project from The Odin Project Course**
