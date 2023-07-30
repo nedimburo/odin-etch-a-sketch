@@ -4,15 +4,20 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+body{
+    background-color: #ffdc68;
+}
 .main-title{
     font-size: 48px;
     text-align: center;
     padding: 10px;
 }
-#button-container{
+#button-info-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
     margin-bottom: 15px;
+    width: 960px;
 }
 .grid-button{
     padding: 10px 20px;
@@ -23,11 +28,20 @@
     border: 2px solid black;
     border-radius: 5px;
 }
+.layout-info{
+    font-size: 22px;
+    font-weight: 800;
+    align-self: center;
+}
 #container{
     display: flex;
     flex-direction: column;
-    width: 1200px;
+    width: 960px;
+    height: 960px;
     margin: 0 auto;
+    border: 10px solid #787878;
+    border-radius: 5px;
+    margin-bottom: 25px;
 }
 .grid{
     flex: 1;
@@ -37,8 +51,9 @@
 }
 .square{
     flex: 1;
-    height: 50px;
+    height: auto;
     outline: 1px solid;
+    background-color: white;
 }
 .colored{
     background-color: black;

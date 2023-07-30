@@ -18,10 +18,16 @@ function generateGridsSquares(size=16){
     }
 }
 
+function editLayoutInfo(newSize){
+    let layoutInfo=document.querySelector(".layout-info");
+    layoutInfo.textContent=`Current Layout: ${newSize}x${newSize}`;
+}
+
 function inputNewGrid(){
     let newSize=Number(prompt("Enter the size of new grid(max. 100):"));
     (newSize>100) ? alert("The entered number is greater than 100.") :
     (newSize<1) ? alert("The etnered number is lesser than 1.") : generateGridsSquares(newSize);
+    editLayoutInfo(newSize);
 }
 
 function editSquare(element){
