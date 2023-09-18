@@ -5,12 +5,13 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: #ffdc68;
+    background-color: #ffe0b5;
 }
 .main-title{
     font-size: 48px;
     text-align: center;
     padding: 10px;
+    color: #732D0A;
 }
 #button-info-container{
     display: flex;
@@ -24,20 +25,32 @@ body{
     border: none;
     font-size: 24px;
     font-weight: 700;
-    background-color: #78ff6e;
-    border: 2px solid black;
+    color: white;
+    background-color: #732D0A;
+    border: 2px solid white;
     border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+.grid-button:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
 }
 .layout-info{
     font-size: 22px;
     font-weight: 800;
     align-self: center;
+    color: #732D0A;
+    background-color: white;
+    padding: 10px 20px;
+    border: 4px dashed black;
+    border-radius: 5px;
 }
 #container{
     display: flex;
     flex-direction: column;
-    width: 960px;
-    height: 960px;
+    width: 820px;
+    height: 820px;
     margin: 0 auto;
     border: 10px solid #787878;
     border-radius: 5px;
